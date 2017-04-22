@@ -7,7 +7,7 @@
 // 
 //  Redistribution and use in source and binary forms, with or without
 //  modification, are permitted provided that the following conditions are met:
-// 
+//seijalsjfoijfo jj
 //  - Redistributions of source code must retain the above copyright notice,
 //  this list of conditions and the disclaimer below.
 // 
@@ -1215,12 +1215,12 @@ typedef struct _AT91S_NVIC {
 #define AT91C_NVIC_ID_PFR0_0  (0xF <<  0) // (NVIC) State0 (T-bit == 0)
 #define AT91C_NVIC_ID_PRF0_1  (0xF <<  4) // (NVIC) State1 (T-bit == 1)
 // -------- NVIC_PFR1 : (NVIC Offset: 0xd44) Processor Feature register1 (ID_PFR1) -------- 
-#define AT91C_NVIC_ID_PRF1_MODEL (0xF <<  8) // (NVIC) Microcontroller programmer’s model
+#define AT91C_NVIC_ID_PRF1_MODEL (0xF <<  8) // (NVIC) Microcontroller programmerÂ’s model
 // -------- NVIC_DFR0 : (NVIC Offset: 0xd48) Debug Feature register0 (ID_DFR0) -------- 
-#define AT91C_NVIC_ID_DFR0_MODEL (0xF << 20) // (NVIC) Microcontroller Debug Model – memory mapped
+#define AT91C_NVIC_ID_DFR0_MODEL (0xF << 20) // (NVIC) Microcontroller Debug Model Â– memory mapped
 // -------- NVIC_MMFR0 : (NVIC Offset: 0xd50) Memory Model Feature register0 (ID_MMFR0) -------- 
-#define AT91C_NVIC_ID_MMFR0_PMSA (0xF <<  4) // (NVIC) Microcontroller Debug Model – memory mapped
-#define AT91C_NVIC_ID_MMFR0_CACHE (0xF <<  8) // (NVIC) Microcontroller Debug Model – memory mapped
+#define AT91C_NVIC_ID_MMFR0_PMSA (0xF <<  4) // (NVIC) Microcontroller Debug Model Â– memory mapped
+#define AT91C_NVIC_ID_MMFR0_CACHE (0xF <<  8) // (NVIC) Microcontroller Debug Model Â– memory mapped
 
 // *****************************************************************************
 //              SOFTWARE API DEFINITION  FOR NESTED vector Interrupt Controller
